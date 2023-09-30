@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./popup.css" />
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chrome extension screen recorder</title>
+  </head>
+  <body>
+    <div id="root">
+      <div className='popup-container'>
+        <div className='top-bar'>
+        <h4>HelpMeOut</h4>
+        <p>s</p>
+        <button>x</button>
+        </div>
+        <p>This extension helps you record and share help videos with ease.</p>
+     
+        <div>
+          <div className='choose-media'>
+           <div  className='choose-icons'><div><p>Camera</p></div> <span>on</span></div>
+           <div  className='choose-icons'><div><p>Audio</p></div><span>on</span></div>
+          </div>
+          <div>
+          <button id="start_video">Start Recording</button>
+          <button id="stop_video">Stop Recording</button>
+          </div>
+         
+         
+        </div>
+     
+      </div>
+    </div>
+    <script type="module" src="./popup.js"></script>
+  </body>
+</html>

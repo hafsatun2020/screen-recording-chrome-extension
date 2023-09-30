@@ -1,0 +1,20 @@
+#root {
+    width: 680px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .top-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+.popup-container{
+    width: 270px;
+    height: 400px;
+    border: 1px solid black;
+}
+p{
+    font-size: smaller;
+}
